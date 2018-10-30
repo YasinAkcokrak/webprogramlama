@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Uludağ Üniversitesi"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+
+    <link rel="shortcut icon" th:href="@{/resources/images/favicon.gif}" type="image/gif"/>
+    <link rel="icon" th:href="@{/resources/images/favicon.gif}" type="image/gif"/>
+
+    <!-- CSS -->
+    <!-- build:css /resources/styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/resources/bower_components/angular-ui-select/dist/select.css"/>
+    <link rel="stylesheet" href="/resources/bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/resources/bower_components/angular-tree-control/css/tree-control.css"/>
+    <!-- endbower -->
+    <!-- Dropdown navbar -->
+    <link rel="stylesheet" href="/resources/bower_components/jquery-ui/themes/smoothness/jquery-ui.css" media="screen"
+          type="text/css"/>
+    <!-- endbuild -->
+
+    <!-- Anasis -->
+    <!-- build:css /resources/styles/main.css -->
+    <link rel="stylesheet" href="/resources/css/webuygulama.css"/>
+    <!-- endbuild -->
+
+    <style>
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
+            display: none !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="alert alert-success" role="alert">Giriş başarılı. Lütfen bekleyiniz...</div>
+
+<script type="application/javascript" th:inline="javascript">
+    var errors = /*[[${errors}]]*/ null;
+</script>
+
+
+</body>
+
+</html>

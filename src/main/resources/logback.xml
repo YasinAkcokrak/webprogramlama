@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="false">
+
+    <jmxConfigurator/>
+    <contextName>tr.edu.uludag.webprogramlama</contextName>
+
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+        <resetJUL>true</resetJUL>
+    </contextListener>
+
+
+    <!-- ======================== -->
+    <!--       Değişkenler        -->
+    <!-- ======================== -->
+    <!-- Uygulama log dosyası ismi -->
+    <variable name="appName" value="webuygulama"/>
+    <!-- Profile özgü ayarlar -->
+    <if condition='property("spring.profiles.active").contains("development")'>
+        <then>
+            <variable name="logBaseFolder" value="logs"/>
+            <variable name="discriminatorClass"
+                      value="tr.edu.uludag.webprogramlama.config.util.logging.DevelopmentDiscriminator"/>
+        </then>
+        <else>
+            <variable name="logBaseFolder" value="applogs"/>
+            <variable name="discriminatorClass"
+                      value="tr.edu.uludag.webprogramlama.config.util.logging.ProductionServerNameDiscriminator"/>
+        </else>
+    </if>
+
+    <!-- ======================== -->
+    <!--       Appenderlar        -->
+    <!-- ======================== -->
+    <!-- File appender -->
+    <appender name="fileSift" class="ch.qos.logback.classic.sift.SiftingAppender">
+        <discriminator class="${discriminatorClass}"/>
+        <sift>
+            <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                    <fileNamePattern>${logBaseFolder}/${appName}.%d.${HOSTNAME}.${jvmId}.log.gz</fileNamePattern>
+                    <!-- Max 60 days of history kept-->
+                    <maxHistory>60</maxHistory>
+                </rollingPolicy>
+                <encoder>
+                    <charset>UTF-8</charset>
+                    <pattern>
+                        <![CDATA[date:%d{yyyy-MM-dd HH:mm:ss.SSS}\tthread:%thread\tX-Track:%X{X-Track}\tuser:%X{user:-nouser}\tlevel:%-5level\tlogger:%-48logger{48}\tmessage:%msg%n]]>
+                    </pattern>
+                </encoder>
+            </appender>
+        </sift>
+    </appender>
+
+
+    <if condition='property("spring.profiles.active").contains("development")'>
+        <then>
+            <!-- ====================================================== -->
+            <!-- ============== DEVELOPMENT LOG CONFIG  =============== -->
+            <!-- ====================================================== -->
+            <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+                <encoder>
+                    <pattern>
+                        <![CDATA[date:%d{yyyy-MM-dd HH:mm:ss.SSS}\tthread:%thread\tX-Track:%X{X-Track}\tuser:%X{user:-nouser}\tlevel:%highlight(%-5level)\tlogger:%boldCyan(%-48logger{48})\tmessage:%gray(%msg) %n]]></pattern>
+                </encoder>
+            </appender>
+
+            <!-- Application's root logger config -->
+            <logger name="tr.edu.uludag.webprogramlama" level="DEBUG"/>
+            <!--<logger name="tr.edu.uludag.webprogramlama.security.ActiveDirectoryPreAuthenticationFilter" level="DEBUG"/>-->
+
+            <!--Change level to see Spring Web details -->
+            <!--<logger name="org.springframework.web" level="DEBUG"/>-->
+
+            <!-- Change level to see Spring Context details -->
+            <!--<logger name="org.springframework.context" level="DEBUG"/>-->
+
+            <!-- Change level to see Spring Security processing details -->
+            <!--<logger name="org.springframework.security" level="DEBUG"/>-->
+            <!--<logger name="org.apache.http" level="DEBUG"/>-->
+
+            <root level="WARN">
+                <appender-ref ref="stdout"/>
+                <appender-ref ref="fileSift"/>
+            </root>
+        </then>
+        <else>
+            <!-- ========================================================================== -->
+            <!-- ============== PRODUCTION LOG CONFIG (CHANGE CAREFULLY!!) ================ -->
+            <!-- ========================================================================== -->
+
+            <!-- Application's root logger config -->
+            <logger name="tr.edu.uludag.webprogramlama" level="INFO"/>
+            <!--    <logger name="tr.edu.uludag.webprogramlama.web.interceptor.ClickStreamInterceptor" level="ERROR"/>
+            -->
+            <root level="WARN">
+                <appender-ref ref="fileSift"/>
+            </root>
+        </else>
+    </if>
+
+
+</configuration>
