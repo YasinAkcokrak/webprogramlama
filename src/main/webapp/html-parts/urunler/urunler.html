@@ -1,1 +1,21 @@
-{{urunlerCtrl.items}}
+
+<div class="panel panel-success">
+    <div class="panel-heading"><h2>Items</h2></div>
+    <div class="panel-body">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Adi</th>
+                <th>Fiyatı</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="item in urunlerCtrl.items">
+                <td>{{item.adi}}</td>
+                <td>{{item.fiyat}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
