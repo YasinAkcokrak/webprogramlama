@@ -1,9 +1,9 @@
 (function () {
     "use strict";
 
-    angular.module("webuygulama").config(welcomeRoute);
+    angular.module("webuygulama").config(urunlerRoute);
 
-    function welcomeRoute($routeProvider) {
+    function urunlerRoute($routeProvider) {
         $routeProvider.when("/items", {
             templateUrl: 'html-parts/urunler/urunler.html',
             controller: "UrunlerCtrl as urunlerCtrl"

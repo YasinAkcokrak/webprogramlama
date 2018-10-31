@@ -1,35 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1280304-ffac-4a7d-b20f-097869c510ae" name="Default" comment="" />
+    <list default="true" id="b1280304-ffac-4a7d-b20f-097869c510ae" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tr/edu/uludag/webprogramlama/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tr/edu/uludag/webprogramlama/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tr/edu/uludag/webprogramlama/web/controller/UrunlerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tr/edu/uludag/webprogramlama/web/controller/UrunlerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/entry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html-parts/urunler/urunler.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html-parts/urunler/urunler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html-parts/urunler/urunler.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html-parts/urunler/urunler.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html-parts/welcome/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html-parts/welcome/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-357630394">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="4" />
+          <entry key="java" value="2" />
+          <entry key="js" value="1" />
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="4" />
+          <entry key="JAVA" value="2" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="157" />
+          <entry key="java" value="16" />
+          <entry key="js" value="7" />
+          <entry key="json" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="157" />
+          <entry key="JAVA" value="16" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="112">
               <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-918">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/uludag/webprogramlama/web/controller/UrunlerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/html-parts/urunler/urunler.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-36">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/entry.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-594" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/html-parts/urunler/urunler.route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/html-parts/welcome/welcome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/uludag/webprogramlama/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>face</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tr/edu/uludag/webprogramlama/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/html-parts/welcome/welcome.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/html-parts/urunler/urunler.route.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/html-parts/urunler/urunler.html" />
+        <option value="$PROJECT_DIR$/src/main/java/tr/edu/uludag/webprogramlama/web/controller/UrunlerController.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="$PROJECT_DIR$/node_modules/bower" />
+    <bower.json value="$PROJECT_DIR$/bower.json" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -43,11 +183,116 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jetty-development" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="web-programlama" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="web-programlama" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="web-programlama" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="jetty" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node/npm/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node/npm/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/disabled/bundlerecurs/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/disabled/change-bin-1/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/disabled/change-bin-2/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/disabled/failer/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/disabled/fast/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/disabled/outdated-depth-integer/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/disabled/package-bar/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/disabled/package-config/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/disabled/package-foo/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/disabled/slow/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-array-bin/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-blerg/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-blerg3/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-bundled-git/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-dir-bin/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-env-reader/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-files/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-ignore-nested-nm/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-ignore/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-missing-bindir/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-optional-deps/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-platform-all/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-platform/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-private/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-shrinkwrap/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-test-package/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/packages/npm-test-url-dep/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/circular-dep/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/dedupe/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/false_name/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/ignore-scripts/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/ignore-shrinkwrap/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/install-at-locally/package@1.2.3/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/install-cli/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/install-save-exact/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/install-save-prefix/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/lifecycle-signal/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/ls-depth-unmet/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/ls-depth/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/outdated-depth/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/outdated-git/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/outdated-include-devdependencies/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/outdated-new-versions/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/outdated/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/package-with-peer-dep/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/peer-deps-invalid/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/peer-deps/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/prune/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/scripts-whitespace-windows/dep/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/scripts-whitespace-windows/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/shrinkwrap-dev-dependency/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/shrinkwrap-empty-deps/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/shrinkwrap-shared-dev-dependency/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/startstop/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/uninstall-package/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/update-save/package.json" />
+      <path value="$PROJECT_DIR$/node/npm/test/tap/url-dependencies/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/resources/bower_components/angular-animate/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/resources/bower_components/angular-cookies/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/resources/bower_components/angular-dynamic-locale/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/resources/bower_components/angular-route/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/resources/bower_components/angular-touch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/resources/bower_components/angular-translate-storage-cookie/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/resources/bower_components/angular-ui-select/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/resources/bower_components/angular/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/resources/bower_components/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/resources/bower_components/jquery-ui/package.json" />
+    </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -59,14 +304,240 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tr" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tr" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="uludag" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tr" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="uludag" type="462c0819:PsiDirectoryNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tr" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="uludag" type="462c0819:PsiDirectoryNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tr" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="uludag" type="462c0819:PsiDirectoryNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tr" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="uludag" type="462c0819:PsiDirectoryNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tr" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="uludag" type="462c0819:PsiDirectoryNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tr" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="uludag" type="462c0819:PsiDirectoryNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="html-parts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="html-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="urunler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="html-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="welcome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webprogramlama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webprogramlama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540917643333" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -87,45 +558,56 @@
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="web-programlama [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map>
+                <entry key="jetty-development" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.web-programlama [jetty:run]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -138,45 +620,50 @@
       <option name="presentableId" value="Default" />
       <updated>1540813759684</updated>
       <workItem from="1540813766609" duration="295000" />
+      <workItem from="1540912313875" duration="5377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295000" />
+    <option name="totallyTimeSpent" value="5672000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info id="Web" side_tool="true" />
-      <window_info anchor="right" id="Database" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2540453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Atlassian " />
+      <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39719626" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32866043" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.21278317" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,11 +672,76 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="viewFilterId" value="" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="112">
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/uludag/webprogramlama/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html-parts/urunler/urunler.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html-parts/welcome/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html-parts/urunler/urunler.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/uludag/webprogramlama/web/controller/UrunlerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>

@@ -17,8 +17,8 @@ public class UrunlerController {
     @ResponseBody
     public List<Urun> get() {
         List<Urun> urunList = Arrays.asList(
-                new Urun("Bişey", 10),
-                new Urun("İki sey", 20)
+                new Urun("Bisey", 10),
+                new Urun("Iki sey", 20)
         );
 
         return urunList;

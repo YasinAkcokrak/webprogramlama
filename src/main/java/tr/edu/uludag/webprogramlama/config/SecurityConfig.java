@@ -87,6 +87,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                     .antMatchers("/").permitAll()
                     .antMatchers("/html-parts/**").permitAll()
                     .antMatchers("/urunler/**").permitAll()
+                    .antMatchers("/favicon.ico").permitAll()
                     .anyRequest().denyAll()
                     .and()
                     .addFilter(activeDirectoryPreAuthenticationFilter);
