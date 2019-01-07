@@ -1,0 +1,20 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2>{{onlineSinavCtrl.items.dersKodu}}
+            - {{onlineSinavCtrl.items.dersAdi}}
+            - {{onlineSinavCtrl.items.sinavAdi}}</h2>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-sm-12" ng-repeat="soru in onlineSinavCtrl.items.soruList">
+                <p><strong>Soru: </strong> {{soru.metin}}</p>
+                <table>
+                    <tr ng-repeat="cevap in soru.cevapList">
+                        <td><input type="radio"> {{cevap.icerik}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>

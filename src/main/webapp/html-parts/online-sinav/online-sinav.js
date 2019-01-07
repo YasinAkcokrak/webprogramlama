@@ -1,17 +1,15 @@
 (function () {
     "use strict";
 
-    angular.module("webuygulama").controller("UrunlerCtrl", UrunlerCtrl);
+    angular.module("webuygulama").controller("OnlineSinavCtrl", OnlineSinavCtrl);
 
-    function UrunlerCtrl(UrunlerService) {
-
+    function OnlineSinavCtrl(OnlineSinavService) {
         var vm = this;
         vm.items = {};
-
         active();
 
         function active() {
-            UrunlerService.getir().then(function (result) {
+            OnlineSinavService.getir().then(function (result) {
                 vm.items = result;
             });
         }

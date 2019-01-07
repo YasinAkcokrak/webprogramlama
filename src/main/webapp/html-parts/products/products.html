@@ -1,0 +1,19 @@
+<div class="panel panel-success">
+    <div class="panel-heading"><h2>Products</h2></div>
+    <div class="panel-body">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="product in productsCtrl.products">
+                <td>{{product.name}}</td>
+                <td>{{product.price}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

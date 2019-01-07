@@ -92,17 +92,6 @@ module.exports = function (grunt) {
                 ]
             }
         },
-        less: {
-            compile: {
-                options: [{
-                    paths: ["<%= appConfig.webappPath %>/resources/css"]
-                }],
-                files: {
-                    "<%= appConfig.webappPath %>/resources/css/webuygulama.css": "<%= appConfig.webappPath %>/resources/css/webuygulama.less"
-                }
-            }
-
-        },
         useminPrepare: {
             html: '<%= appConfig.webappPath %>/*.html',
             options: {
@@ -211,8 +200,8 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask('resolve-deps', [
-        'wiredep',
-        'less:compile'
+        'wiredep'
+        // 'less:compile'
     ]);
 
     grunt.registerTask('imagemin', [
